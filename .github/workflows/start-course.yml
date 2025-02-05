@@ -1,0 +1,20 @@
+name: Start Course
+
+on:
+  workflow_dispatch:
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Démarrer le Module 1
+        run: echo "Module 1 lancé !"
+
+      - name: Démarrer le Module 2
+        run: echo "Module 2 lancé !"
+
+      - name: Fin du cours
+        run: echo "Cours terminé !"
