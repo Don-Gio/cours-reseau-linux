@@ -1,18 +1,1 @@
-name: Validate Network Configuration
 
-on:
-  push:
-    paths:
-      - 'module-*/exercices/*'
-
-jobs:
-  validate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Run validation script
-        run: |
-          bash module-1/exercices/check-config.sh
