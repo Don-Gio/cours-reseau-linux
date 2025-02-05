@@ -1,22 +1,17 @@
-# Cours Réseau Linux pour Débutants
+# Cours Administrateur Réseau Linux Débutant
 
-Bienvenue dans ce cours interactif sur l'administration réseau Linux ! Ce cours est destiné aux débutants souhaitant apprendre les bases de l'administration réseau sous Linux.
+Bienvenue dans le cours ! Si tu es prêt à commencer, clique sur le bouton ci-dessous pour lancer le processus automatique du cours.
 
-## Modules du cours
+[![Démarrer le Cours](https://img.shields.io/badge/Démarrer%20le%20cours-brightgreen)](https://github.com/ton-utilisateur/ton-depot/actions/workflows/automatiser_cours.yml)
 
-1. **Module 1** : Introduction à Linux et à l'administration réseau
-2. **Module 2** : Configuration du réseau sous Linux
-3. **Module 3** : Sécurisation du réseau
-4. **Module 4** : Gestion des services réseaux
-5. **Module 5** : Surveillance et dépannage réseau
+Une fois le processus commencé, tu progresseras automatiquement à travers chaque module.
 
-## Comment utiliser ce cours ?
+---
 
-- **Lire le contenu** : Chaque module contient des explications détaillées en Markdown.
-- **Faire les exercices** : Après chaque module, vous trouverez des exercices pour pratiquer.
-- **Soumettre votre travail** : Vous pouvez soumettre vos exercices directement dans le dépôt.
-- **Validation automatique** : Les exercices seront validés automatiquement via GitHub Actions.
+## Modules du Cours :
 
-## Suivi et progrès
+1. **Module 1** : Introduction aux réseaux Linux
+2. **Module 2** : Configuration d'un serveur web
+3. **Module 3** : Sécurisation des serveurs
 
-À chaque exercice soumis, vous recevrez un retour automatique grâce à GitHub Actions. Si vous avez des questions, n'hésitez pas à ouvrir une issue dans ce dépôt.
+Bonne chance !
