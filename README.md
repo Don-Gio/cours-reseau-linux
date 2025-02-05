@@ -1,17 +1,9 @@
-# Cours Administrateur Réseau Linux Débutant
+# 🎓 Formation pour Administrateurs Réseau Linux
 
-Bienvenue dans le cours ! Si tu es prêt à commencer, clique sur le bouton ci-dessous pour lancer le processus automatique du cours.
+Bienvenue dans cette formation interactive ! 🚀 
 
-[![Démarrer le Cours](https://img.shields.io/badge/Démarrer%20le%20cours-brightgreen)](https://github.com/Don-Gio/cours-reseau-linux/actions/workflows/start-course.yml)
+## 🚀 Démarrer le Cours
+Après avoir cloné ce dépôt, lancez la commande suivante dans votre terminal :
 
-Une fois le processus commencé, tu progresseras automatiquement à travers chaque module.
-
----
-
-## Modules du Cours :
-
-1. **Module 1** : Introduction aux réseaux Linux
-2. **Module 2** : Configuration d'un serveur web
-3. **Module 3** : Sécurisation des serveurs
-
-Bonne chance !
+```sh
+chmod +x start.sh && ./start.sh
