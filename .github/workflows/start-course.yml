@@ -1,0 +1,37 @@
+name: Automatiser le Cours
+
+on:
+  workflow_dispatch:  # Cette action est manuelle mais peut être déclenchée par un bouton de démarrage
+
+jobs:
+  course_progression:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Démarrer Module 1
+        run: |
+          echo "Démarrage du Module 1..."
+          # Ici, tu peux ajouter des commandes ou des étapes spécifiques à valider avant de passer au module suivant
+          touch module-1/validated.txt
+          echo "Module 1 terminé ! Passer au module 2."
+
+      - name: Démarrer Module 2
+        run: |
+          echo "Démarrage du Module 2..."
+          # Validation ou autres actions pour Module 2
+          touch module-2/validated.txt
+          echo "Module 2 terminé ! Passer au module 3."
+
+      - name: Démarrer Module 3
+        run: |
+          echo "Démarrage du Module 3..."
+          # Validation ou autres actions pour Module 3
+          touch module-3/validated.txt
+          echo "Module 3 terminé !"
+
+      - name: Confirmer la fin du cours
+        run: echo "Tous les modules ont été complétés avec succès."
+
