@@ -2,7 +2,7 @@
 
 Bienvenue dans le cours ! Si tu es prêt à commencer, clique sur le bouton ci-dessous pour lancer le processus automatique du cours.
 
-[![Démarrer le Cours](https://img.shields.io/badge/Démarrer%20le%20cours-brightgreen)](https://github.com/Don-Gio/cours-reseau-linux/.github/workflows/start-course.yml)
+[![Démarrer le Cours](https://img.shields.io/badge/Démarrer%20le%20cours-brightgreen)](https://github.com/Don-Gio/cours-reseau-linux/actions/workflows/start-course.yml)
 
 Une fois le processus commencé, tu progresseras automatiquement à travers chaque module.
 
